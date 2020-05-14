@@ -1,0 +1,38 @@
+{
+  "name": "@soufantech/package-js",
+  "version": "1.0.0",
+  "description": "A JavaScript boilerplate for building Node packages.",
+  "keywords": [],
+  "author": {
+    "name": "Fábio Priamo",
+    "email": "fabio@soufan.com.br",
+    "url": "https://github.com/fhpriamo"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "publishConfig": {
+    "access:": "restricted"
+  },
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
