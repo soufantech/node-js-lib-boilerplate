@@ -57,8 +57,8 @@ In addition to `package.json`, you might also want to check...
   <sub>Built with ❤︎ by <a href="http://soufan.com.br">SouFan</a>
 </div>
 
-[npm-image]: https://img.shields.io/npm/v/@soufantech/server-errors.svg?style=for-the-badge&logo=npm
-[npm-url]: https://npmjs.org/package/@soufantech/server-errors "npm"
+[npm-image]: https://img.shields.io/npm/v/@soufantech/package-js.svg?style=for-the-badge&logo=npm
+[npm-url]: https://npmjs.org/package/@soufantech/package-js "npm"
 
 [jest-image]: https://img.shields.io/badge/tested_with-jest-99424f.svg?style=for-the-badge&logo=jest
 [jest-url]: https://github.com/facebook/jest "jest"
