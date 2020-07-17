@@ -16,8 +16,9 @@
   "main": "./src/index.js",
   "exports": "./src/index.js",
   "scripts": {
-    "test": "jest --detectOpenHandles --forceExit",
-    "lint": "eslint src"
+    "test": "jest",
+    "lint": "eslint src",
+    "prepublishOnly": "npm run test"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
