@@ -1,6 +1,6 @@
 {
   "name": "@soufantech/package-js",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "description": "A JavaScript boilerplate for building Node packages.",
   "keywords": [],
   "author": {
