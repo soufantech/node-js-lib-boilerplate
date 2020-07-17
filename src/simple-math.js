@@ -6,7 +6,7 @@ function sub(left, right) {
   return left - right;
 }
 
-module.exports = { 
+module.exports = {
   add,
   sub,
 };
