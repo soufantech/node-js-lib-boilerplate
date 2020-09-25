@@ -41,6 +41,7 @@ You might want to...
 - set the `repository` field.
 - remove the `test` command along with the `jest` dependency if your project is not meant to include automated tests.
 - run `yarn upgrade --latest` to generate a fresh `yarn.lock` and upgrade all dependencies listed in your `package.json`.
+- exclude the `.npmrc` file or modify it if you're not using a SouFan NPM registry token (typically `SOUFAN_NPM_TOKEN`)
 
 In addition to `package.json`, you might also want to check...
 
