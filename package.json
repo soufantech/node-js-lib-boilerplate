@@ -16,7 +16,7 @@
   "main": "./src/index.js",
   "exports": "./src/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "lint": "eslint src",
     "prepublishOnly": "npm run test"
   },
