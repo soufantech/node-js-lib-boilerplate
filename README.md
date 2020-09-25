@@ -13,13 +13,15 @@
 
 <div align="center">
 
-[![jest-image]][jest-url] [![npm-image]][npm-url] 
+[![jest-image]][jest-url] [![npm-image]][npm-url]
 
 </div>
 
 ## Setup
 
 Clone the project with `git clone --dissociate <THIS PROJECT GIT URI> <YOUR PROJECT NAME>`;
+
+Optionally, if you want to start with a clean git history, you can pass the `--depth 1` argument to `git clone` too. Then you can `cd` into the project folder and remove the `.git` directory with `rm -rf .git`.
 
 ### **Required** overrides:
 
@@ -38,7 +40,7 @@ You might want to...
 - set the `private` field to `false` in order to publish the package.
 - set the `repository` field.
 - remove the `test` command along with the `jest` dependency if your project is not meant to include automated tests.
-- run `yarn upgrade` to generate a fresh `yarn.lock`.
+- run `yarn upgrade --latest` to generate a fresh `yarn.lock` and upgrade all dependencies listed in your `package.json`.
 
 In addition to `package.json`, you might also want to check...
 
