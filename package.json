@@ -4,9 +4,9 @@
   "description": "A JavaScript boilerplate for building Node packages.",
   "keywords": [],
   "author": {
-    "name": "Fábio Priamo",
-    "email": "fabio@soufan.com.br",
-    "url": "https://github.com/fhpriamo"
+    "name": "SouFan Team",
+    "email": "no-reply@soufan.com.br",
+    "url": "https://github.com/soufantech"
   },
   "license": "UNLICENSED",
   "private": true,
