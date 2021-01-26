@@ -1,7 +1,7 @@
 {
-  "name": "@soufantech/package-js",
+  "name": "@soufantech/node-js-lib-boilerplate",
   "version": "0.0.0",
-  "description": "A JavaScript boilerplate for building Node packages.",
+  "description": "SouFan's JavaScript boilerplate for Node.js libraries",
   "keywords": [],
   "author": {
     "name": "SouFan Team",

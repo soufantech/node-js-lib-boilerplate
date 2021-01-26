@@ -5,8 +5,8 @@
 <br />
 
 <div align="center">
-  <h1>@soufantech/package-js</h1>
-  <p>A JavaScript boilerplate for building Node packages.</p>
+  <h1>@soufantech/node-js-lib-boilerplate</h1>
+  <p>SouFan's JavaScript boilerplate for Node.js libraries</p>
 </div>
 
 <br />
@@ -60,9 +60,8 @@ In addition to `package.json`, you might also want to check...
   <sub>Built with ❤︎ by <a href="http://soufan.com.br">SouFan</a>
 </div>
 
-[npm-image]: https://img.shields.io/npm/v/@soufantech/package-js.svg?style=for-the-badge&logo=npm
-[npm-url]: https://npmjs.org/package/@soufantech/package-js "npm"
+[npm-image]: https://img.shields.io/npm/v/@soufantech/node-js-lib-boilerplate.svg?style=for-the-badge&logo=npm
+[npm-url]: https://npmjs.org/package/@soufantech/node-js-lib-boilerplate "npm"
 
 [jest-image]: https://img.shields.io/badge/tested_with-jest-99424f.svg?style=for-the-badge&logo=jest
 [jest-url]: https://github.com/facebook/jest "jest"
-
