@@ -19,9 +19,12 @@
 
 ## Setup
 
-Clone the project with `git clone --dissociate <THIS PROJECT GIT URI> <YOUR PROJECT NAME>`;
-
-Optionally, if you want to start with a clean git history, you can pass the `--depth 1` argument to `git clone` too. Then you can `cd` into the project folder and remove the `.git` directory with `rm -rf .git`.
+1. Make a shallow clone of this project in the desired folder, renaming it (replace `<MY_LIB_NAME>` in any of the examples below for your project's name):
+  - Using SSH: `git clone --depth 1 git@github.com:soufantech/node-js-lib-boilerplate.git <MY_LIB_NAME>`.
+  - Using HTTPS: `git clone --depth 1 https://github.com/soufantech/node-js-lib-boilerplate.git <MY_LIB_NAME>`.
+2. Step into the recently cloned project and erase the .git directory completely.
+3. Make the required and optional overrides as described further below.
+4. Create a new repository with `git init` and commit your files.
 
 ### **Required** overrides:
 
@@ -29,7 +32,7 @@ You **must**...
 
 1. update `author`, `name` and `version` in `package.json`.
 2. delete or replace demo files: `rm src/index.ts src/simple-math.ts src/__tests__/simple-math.test.ts`.
-3. rewrite this `README.md`;
+3. rewrite this `README.md` (after reading it);
 
 ### **Optional** overrides:
 
@@ -49,10 +52,6 @@ In addition to `package.json`, you might also want to check...
 - the test runner options on the `jest.config.js` file.
 - the linter rules in the `eslintrc.yml` file.
 - the general editor configuration on the `.editorconfig` file.
-
-## Todo:
-
-- [ ] Add and configure semantic-release.
 
 ---
 
