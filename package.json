@@ -8,6 +8,14 @@
     "email": "no-reply@soufan.com.br",
     "url": "https://github.com/soufantech"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/soufantech/node-js-lib-boilerplate.git"
+  },
+  "homepage": "https://github.com/soufantech/node-js-lib-boilerplate#readme",
+  "bugs": {
+    "url" : "https://github.com/soufantech/node-js-lib-boilerplate/issues"
+  },
   "license": "UNLICENSED",
   "private": true,
   "publishConfig": {

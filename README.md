@@ -30,7 +30,7 @@
 
 You **must**...
 
-1. update `author`, `name` and `version` in `package.json`.
+1. update `author`, `repository`, `homepage`, `bugs`, `name` and `version` fields in `package.json`.
 2. delete or replace demo files: `rm src/index.ts src/simple-math.ts src/__tests__/simple-math.test.ts`.
 3. rewrite this `README.md` (after reading it);
 
